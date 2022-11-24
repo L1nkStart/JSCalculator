@@ -1,0 +1,120 @@
+.cont-boton{
+    height: 73px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    background-image: linear-gradient(62deg, Black 75%, DarkGray 100%);
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+
+}
+.cont-boton:hover{
+    background-color: #5a01a7;
+}
+.operator{
+    background-color: #00471b;
+}
+.operator:hover{
+    background-color: #ff6600;
+}
+.boton-clear{
+    height: 65px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.6em;
+    background-color: #ac0246;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 8px;
+}
+.boton-clear:hover{
+    background-color: #ebb000;
+}
+.input{
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 30px;
+    background-image: linear-gradient(62deg, #031302 80%, darkgreen 100%);
+    color: white;
+    padding: 11px 30px 11px 11px;
+    margin: 1px solid #888;
+    box-shadow: -1px 4px 1px 1px white;
+
+}
+#input{
+  display:flex;
+  justify-content: flex-end;
+  color: yellow;
+  font-size:0.8em;
+}
+
+#display{
+  display:flex;
+  justify-content: flex-end;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #0a0a23;
+}
+.App{
+    height: 100vh;
+    font-family: Lato, sans-serif;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cont-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+}
+.cont-calculadora{
+    width: 400px;
+    height: 550px;
+    padding: 15px;
+    background-image: linear-gradient(62deg, DimGrey 70%, CadetBlue 100%);
+    border-radius: 20px;
+    border: 5px solid white;
+}
+.fila{
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  background-image: linear-gradient(62deg, Brown 50%, CadetBlue 100%);
+}
